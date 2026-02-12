@@ -16,7 +16,7 @@ def fizz_buzz(n):
             result.append("Fizz")
 
         # Check if i is divisible by 3
-        elif i % 3 == 0:
+        elif i % 2 == 0:
 
             # Add "Buzz" to the result list
             result.append("Buzz")
