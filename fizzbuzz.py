@@ -30,7 +30,7 @@ def fizz_buzz(n):
 
 
 # Driver code
-n = 10
+n = 100
 result = fizz_buzz(n)
 print(' '.join(result))
 print("Hello World")
