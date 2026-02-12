@@ -7,7 +7,7 @@ def fizz_buzz(n):
         if i % 2 == 0 and i % 3 == 0:
 
             # Add "FizzBuzz" to the result list
-            result.append("FizzBuzz")
+            result.append("TwoThree")
 
         # Check if i is divisible by 2
         elif i % 2 == 0:
