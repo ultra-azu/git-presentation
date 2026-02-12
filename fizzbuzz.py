@@ -13,7 +13,7 @@ def fizz_buzz(n):
         elif i % 2 == 0:
 
             # Add "Fizz" to the result list
-            result.append("Fizz")
+            result.append("Two")
 
         # Check if i is divisible by 3
         elif i % 2 == 0:
