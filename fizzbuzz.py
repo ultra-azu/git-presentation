@@ -32,5 +32,8 @@ def fizz_buzz(n):
 # Driver code
 n = 10
 result = fizz_buzz(n)
-print(' '.join(result))
+
+for i in range(1, n + 1):
+    print(f"{i}: {result[i-1]}")
+
 print("Hello World")
