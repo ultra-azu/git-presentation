@@ -19,7 +19,7 @@ def fizz_buzz(n):
         elif i % 2 == 0:
 
             # Add "Buzz" to the result list
-            result.append("Buzz")
+            result.append("Three")
         else:
 
             # Add the current number as a string to the
