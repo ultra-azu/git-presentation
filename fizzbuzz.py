@@ -6,20 +6,20 @@ def fizz_buzz(n):
         # Check if i is divisible by both 2 and 3
         if i % 2 == 0 and i % 3 == 0:
 
-            # Add "FizzBuzz" to the result list
-            result.append("FizzBuzz")
+            # Add "HolaMundo" to the result list
+            result.append("HolaMundo")
 
         # Check if i is divisible by 2
         elif i % 2 == 0:
 
-            # Add "Fizz" to the result list
-            result.append("Fizz")
+            # Add "Hola" to the result list
+            result.append("Hola")
 
         # Check if i is divisible by 3
         elif i % 3 == 0:
 
-            # Add "Buzz" to the result list
-            result.append("Buzz")
+            # Add "Mundo" to the result list
+            result.append("Mundo")
         else:
 
             # Add the current number as a string to the
